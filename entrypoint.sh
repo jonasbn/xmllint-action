@@ -2,4 +2,4 @@
 
 shopt -s globstar
 
-xmllint "$1" --schema "$2" --noout
+xmllint $1 --schema $2 --noout
