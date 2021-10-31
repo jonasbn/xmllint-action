@@ -1,3 +1,5 @@
-#!/bin/sh -l
+#!/bin/bash
 
-xmllint $1 --schema $2 --noout
+shopt -s globstar
+
+xmllint "$1" --schema "$2" --noout
